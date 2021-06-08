@@ -2,7 +2,12 @@ import {useState} from 'react';
 
 function Home(){
 
-    return <div>Inicio</div>
+    return <div>
+        Sobre
+
+        <h1> teste </h1>
+
+    </div>
 }
 
 export default Home
