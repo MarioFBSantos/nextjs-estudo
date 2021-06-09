@@ -1,11 +1,14 @@
 import Link from 'next/link';
+
 function Home(){
 
-    return <div>
+    return(<div>
         2
-        <Link href="/"><a>home</a></Link>
+        <Link href="/">
+        <a>home</a>
+        </Link>
 
-    </div>
+    </div>)
 }
 
 export default Home

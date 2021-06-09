@@ -3,12 +3,14 @@ import {useState} from 'react';
 
 function Home(){
 
-    return <div>
+    return(<div>
         Sobre
 
-        <Link href="/sobre"><a>Sobre</a></Link>
+        <Link href="/sobre">
+            <a>Sobre</a>
+        </Link>
 
-    </div>
+    </div>)
 }
 
 export default Home
